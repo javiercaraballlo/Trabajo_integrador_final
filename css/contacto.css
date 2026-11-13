@@ -1,0 +1,113 @@
+.mainx {
+    width: 100%
+}
+
+ #formulario-contacto{
+   background: #d5bebe; 
+   border-radius: 12px; 
+   box-shadow: 0 4px 24px rgba(0, 0, 0); 
+   padding: 2.5rem 2rem; 
+   width: 100%;  
+   max-width: 540px; 
+   margin: 0 auto; 
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.contenedorcampo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+}
+
+.titulo{
+    text-align: center;
+    color:#1a1a1a;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    text-shadow: 7px 7px 7px rgba(15, 8, 8, 0.5);
+}
+
+label{
+    color: #1a1a1a
+}
+input, textarea {
+    width: 100%; /
+    padding: 0.6rem 0.8rem;
+    border: 1.5px;
+    border-radius: 8px;
+    background-color: #d4d3f5;
+}
+
+input:focus, textarea:focus {
+    border-color: #f10404; 
+    box-shadow: 0 0 0 3px rgb(219, 10, 10);
+}
+
+#botonenviar{
+    width: 100%;
+    padding: 0.8rem; 
+    background-color: #f6a76b;
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    border: none;
+    border-radius: 
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 0.5rem;
+
+}
+
+#botonenviar:hover{
+    background-color: #c75b09;
+}
+
+.contacto {
+  text-align: center; 
+  width: 100%;        
+  margin-bottom: 1rem;  
+}
+
+.contacto h1 {
+  font-weight: bold;    
+  font-size: 32px;       
+  color: #c72626;      
+  margin-bottom: 10px;    
+  text-shadow: 7px 7px 7px rgba(171, 48, 48, 0.5);
+}
+
+.contacto p {
+  font-size: 16px;        
+  color: #a83434;         
+  line-height: 1.6;      
+  margin: 5px 0;         
+  text-shadow: 7px 7px 5px rgba(171, 48, 48, 0.5);
+}
+
+.contenedor-botones {
+  display: flex;            
+  justify-content: center;  
+  gap: 25px;               
+  width: 100%;             
+  flex-wrap: nowrap;       
+  margin-bottom: 15px; 
+
+}
+
+.boton {
+  background-color: #e5e7e8;
+  color: #1a1a1a;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 1.1px solid #ccc5c5;
+  font-weight: bold;
+  flex: 1;                  
+  max-width: 350px;        
+  text-align: center;       
+  white-space: nowrap;      
+  box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.5); 
+  transition: background-color 0.3s, transform 0.2s; 
+}
